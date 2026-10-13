@@ -1,6 +1,6 @@
 name: Welcome to the party (third)
 on:
-workflow_dispatch:
+  workflow_dispatch:
   inputs:
     thename:
       description: 'What is your name?'
