@@ -11,4 +11,4 @@ jobs:
     name: "Let's greet the user"
     runs-on: ubuntu-latest
     steps: 
-      - run: echo "Hello there, ${ { inputs.thename } } !"
+      - run: echo "Hello there, ${{ inputs.thename }}!"
